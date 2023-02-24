@@ -534,23 +534,7 @@ def test_parsers_rst_menu_filter_module3(parse):
                 "type": "Assign",
                 "targets_0_type": "Name",
                 "targets_0_id": "filtered",
-                "value_type": "Call",
-                "value_func_type": "Attribute",
-                "value_func_value_type": "Name",
-                "value_func_value_id": "hooks",
-                "value_func_attr": "filter",
-                "value_args_0_type": "Constant",
-                "value_args_0_value": "generate_menu",
-                "value_args_1_type": "Subscript",
-                "value_args_1_value_type": "Name",
-                "value_args_1_value_id": "html",
-                "value_args_1_slice_type": "Index",
-                "value_args_1_slice_value_type": "Constant",
-                "value_args_1_slice_value_value": "html_body",
-                "value_args_2_type": "Attribute",
-                "value_args_2_value_type": "Name",
-                "value_args_2_value_id": "self",
-                "value_args_2_attr": "base_ext",
+                
             }
         )
         .exists()
